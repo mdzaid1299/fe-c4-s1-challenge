@@ -1,0 +1,17 @@
+div {
+    display: flex;
+    margin-left: 40%;
+    align-items: center;
+    margin-bottom: 50px;
+  }
+  
+  div input {
+    height: 25px;
+    padding-right: 30px;
+  }
+  
+  div i {
+    font-size: 16px;
+    margin-left: -25px;
+    cursor: pointer;
+  }

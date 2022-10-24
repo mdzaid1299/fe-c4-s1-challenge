@@ -1,0 +1,13 @@
+<div class="container">
+  <div class="row">
+    <div class="col-lg-3 m-2 shadow-lg p-3 mb-5 bg-white rounded" *ngFor="let note of notes">
+    <mat-card >
+      <p class="text-center fw-bold">{{ note.title }}</p>
+      <p class="text-center">{{ note.content }}</p>
+      <mat-icon  mat-fab color="primary">save</mat-icon> <mat-icon  mat-fab color="primary">edit</mat-icon> <mat-icon  mat-fab color="primary">delete</mat-icon>
+      <mat-icon  mat-fab color="warn">notifications</mat-icon>
+      
+    </mat-card>
+    </div>
+  </div>
+</div>
